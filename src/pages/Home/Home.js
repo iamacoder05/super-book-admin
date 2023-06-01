@@ -1,18 +1,19 @@
-import React from 'react'
-import Sidebar from '../../component/Sidebar/Sidebar'
-import './Home.css'
-import Navbar from '../../component/Navbar/Navbar'
-
+import React from 'react';
+import Sidebar from '../../component/Sidebar/Sidebar';
+import './Home.css';
+import Navbar from '../../component/Navbar/Navbar';
+import Widget from '../../component/Widget/Widget';
 const Home = () => {
   return (
     <div className='home'>
-      {/* <h1 className='title'>
-        Super Book
-      </h1> */}
+
       <Sidebar />
       <div className='homeContainer'>
         <Navbar />
-        home container </div>
+       <div className='widget'>
+        <Widget />
+       </div>
+        </div>
     </div>
   )
 }
