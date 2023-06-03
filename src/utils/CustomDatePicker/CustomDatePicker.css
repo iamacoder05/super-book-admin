@@ -1,0 +1,34 @@
+.custom-date-picker {
+    position: relative;
+  }
+.custom-date-picker .date-range-input{
+width: 250px;
+text-align: center;
+height: 20px;
+background-color: rgb(221, 221, 221);
+
+}
+.date-range-picker-container {
+   
+    margin: 10px;
+    border: 2px solid rgb(165, 165, 165);
+  }
+  /* .date-range-picker-container  {
+    margin-left: 10px;
+  } */
+.rdrDefinedRangesWrapper{
+    width: 120px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.apply-button{
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+.cancel-button{
+    margin-right:10px;
+
+    margin-bottom: 10px;
+}

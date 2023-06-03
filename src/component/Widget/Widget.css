@@ -9,7 +9,7 @@ border-radius: 10px;
 height: 100px;
 }
 
-.widgets .left, .right{
+/* .widgets .left{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,21 +18,23 @@ height: 100px;
     font-weight: bold;
     font-size: 14px;
     color: rgb(160,160,160);
+    width: max-content;
+    border-bottom: 1px solid grey;
 }
 .widgets .left .counter{
     font-size: 28px;
     font-weight: 300;
-}
-.widgets .left .link{
+} */
+/* .widgets .left .link{
     width: max-content;
     font-size:  12px;
     border-bottom: 1px solid grey;
-}
-.widgets .right .icon{
+} */
+.widgets .icon{
     font-size: 18px;
     padding: 5px;
     background-color: rgba(233, 91, 233, 0.541);
     border-radius: 5px;
-    margin-top: auto;
+
    
 }
